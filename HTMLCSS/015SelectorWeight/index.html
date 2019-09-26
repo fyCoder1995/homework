@@ -4,9 +4,37 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
+		<style type="text/css">
+			#news{
+				list-style: none;
+				width: 185px;
+			}
+			#news li{
+				height: 40px;
+				line-height: 40px;
+				border-bottom: dashed 1px gray;
+			}
+			#news li a{
+				color: gray;
+				text-decoration: none;
+			}
+			#news .last{
+				border: none;
+			}
+		</style>
 	</head>
 	<body>
 		<!-- 行内样式【1000】》ID选择器【100】》类选择器【10】》标签选择器【1】》通用选择器 【0】 -->
 		<!-- 选择器 选择的范围越小约精确 优先级就越高 -->
+		<ul id="news">
+			<li><a href="">我贵而人奉之，</a></li>
+			<li><a href="">奉此峨冠大带也；</a></li>
+			<li><a href="">我贱而人侮之，</a></li>
+			<li><a href="">侮此布衣草履也；</a></li>
+			<li><a href="">然则愿非奉我，</a></li>
+			<li><a href="">我胡为喜？</a></li>
+			<li><a href="">原非侮我，</a></li>
+			<li class="last"><a href="">我胡为怒？</a></li>
+		</ul>	
 	</body>
 </html>
