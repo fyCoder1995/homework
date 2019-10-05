@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Automatic data type conversion</title>
+	<script type="text/javascript">
+		/*
+			总结：任何其他数据类型除了和字符串相加操作外，与数字类型做算术运算的时候，其他数据类型会自动转换成数字。
+
+			布尔值：
+			ture => 1
+			false => 0
+
+			特殊数据类型中：
+			null => 0
+			undefined => NaN
+		*/
+		// var tmp = 1 * "1"; // 1
+		// var tmp = 1 / "1"; //1 number
+		// var tmp = 1 + true; //2
+		// var tmp = 1 + false; //2
+		// var tmp = 1 + null; //1
+		var tmp = 1 + undefined; //NaN
+		alert(tmp);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
