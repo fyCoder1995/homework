@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		/*
+			2、成绩判定
+			大于85 优秀 分等级 95～100 1000
+							 90～95 800
+							 85～90 300
+			大于等于75小于等于85 良好
+			大于等于60小于75 及格
+			小于60 不及格
+		*/
+		var result = 90;
+		if(result > 85){
+			alert("优秀");
+			// 再进行区分，在条件语句里面，再去编写条件语句，嵌套if结构
+			if(result >= 95 && result < 100){
+				alert("奖励1000块");
+			}else if(result >= 90 && result < 95){
+				alert("奖励800块");
+			}else{
+				alert("奖励300块");
+			}
+		}else if(result >= 75 && result < 85){
+			alert("良好");
+		}else if(result >= 60 && result < 75){
+			alert("及格");
+		}else{
+			alert("不及格");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
