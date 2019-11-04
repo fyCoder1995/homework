@@ -19,11 +19,27 @@
 			continue语句
 			【注】只能在循环语句中使用，使本次循环结束ßß，即跳过循环体中下面尚未执行的语句，接着进行下次是否执行循环的判断
 		*/
-		for (var i = 0; i < 100; i++) {
-			if ((i + 1) % 5 == 0) {
-				continue;
+		// for (var i = 0; i < 100; i++) {
+		// 	if ((i + 1) % 5 == 0) {
+		// 		continue;
+		// 	}
+		// 	document.write((i + 1) + "<br />");
+		// }
+
+		// 正直角三角
+		// for (var i = 0; i < 5; i++) {
+		// 	for (var j = 0; j < i+1; j++) {
+		// 		document.write("*")
+		// 	}
+		// 	document.write("<br />")
+		// }
+
+		// 倒直角三角
+		for (var i = 5; i > 0; i--) {
+			for (var j = 0; j < i; j++) {
+				document.write("*")
 			}
-			document.write((i + 1) + "<br />");
+			document.write("<br />")
 		}
 	</script>
 </head>
