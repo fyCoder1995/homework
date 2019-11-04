@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		/*
+			break语句
+			1、在swith语句中使流程跳出switch。
+			2、在循环语句中使流程跳出当前的循环。
+		*/
+		// for (var i = 0; i < 100; i++) {
+		// 	if ((i + 1) % 5 == 0) {
+		// 		break;
+		// 	}
+		// 	document.write((i + 1) + "<br />");
+		// }
+
+		/*
+			continue语句
+			【注】只能在循环语句中使用，使本次循环结束ßß，即跳过循环体中下面尚未执行的语句，接着进行下次是否执行循环的判断
+		*/
+		for (var i = 0; i < 100; i++) {
+			if ((i + 1) % 5 == 0) {
+				continue;
+			}
+			document.write((i + 1) + "<br />");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
