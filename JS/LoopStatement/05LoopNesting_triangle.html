@@ -8,13 +8,28 @@
 			【注】循环中中间变量，命名i j k
 		*/
 		//第一层循环，决定打印了几行
-		for (var i = 0; i < 5; i++) {
+/*		for (var i = 0; i < 5; i++) {
 			//每一行打印几个星，对应行和打印的星是一致的
 			for (var j = 0; j <= i; j++) {
-				document.write("o");
+				document.write("⭕️");
+			}
+			document.write("<br />")
+		}*/
+
+		for (var i = 0; i < 5; i++) {
+			//每一行的空格，行数-当前行打印的星的个数
+			for (var k = 0; k < 5 - i - 1; k++) {
+				document.write("&ensp;");
+			}
+			//每一行打印几个星，对应行和打印的星是一致的
+			for (var j = 0; j <= i; j++) {
+				document.write("*");
 			}
 			document.write("<br />")
 		}
+
+
+
 	</script>
 </head>
 <body>
