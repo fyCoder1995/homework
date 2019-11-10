@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		// 输出n个hello world
+		/*
+		【注】到底输出几个是不确定的
+			我们可以把函数中不确定的值当做形参（形式上的参数）进行声明。
+
+		有参函数的封装过程：
+		function 函数名(形参...){
+			函数体;
+		}
+		*/
+
+		//函数的声明
+		function print(n){ //n 形参 n = 10;
+			for(var i = 0; i < n; i++){
+				document.write("hello world!<br />");
+			}
+
+		}
+
+		// 函数调用  实参给形参进行赋值 10实参 n 形参
+		print(10);
+
+		//封装一个函数，计算两个数的和
+		function add(num1,num2){ //num1 = 3 num2 = 4
+			alert(num1 + num2);
+		}
+
+		add(3,4);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
