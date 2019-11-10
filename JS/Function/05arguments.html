@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		/*
+			计算所有传入参数的和。具体传入多少参数不确定。
+			【注】arguments
+			【注】在每一个函数内，都有一个内置的数组，是一个变量，叫做arguments。arguments可以存储当前函数传入的所有函数，而且是通过传参的顺序，进行排列的。
+
+			【注】arguments.length 输入传入参数的个数
+			【注】访问arguments的里面的数据，需要通过对应的房间号/下标进行访问
+			【注】下标可以配合我们的循环去使用
+		*/
+		function sum(){
+			// alert(arguments); //[object Arguments]
+			// alert(arguments.length);
+			// alert(arguments[0])
+			var sum = 0;
+			for (var i = 0; i < arguments.length; i++) {
+				sum += arguments[i];
+			}
+			alert(sum);
+		}
+		sum(3,4,5,6);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
