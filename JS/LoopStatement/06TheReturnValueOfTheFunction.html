@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		function add(num1 , num2){
+			// alert(num1 + num2);
+			alert(1);
+			return num1 + num2;
+			// alert(2); //这些代码执行不到.
+			// return "hello world";
+		}
+
+		/*
+			【注】希望能够在函数外部获取到，函数调用的结果。
+			【注】如果我们要是外部获取到函数内部运行的结果，可以通过return语句跟后面的要返回的值来实现返回值。
+			【注】return后面所跟表达式的值，就是当前函数调用的值。
+
+			【注】函数执行到return语句以后，就执行结束，跟在return后面其他的语句，执行不到。
+
+
+			表达式
+			1、表达式值
+			2、表达式的功能
+
+			函数 分析函数
+			1、函数值（return后面表达式的值）
+			2、函数功能（函数名）
+
+		*/
+
+		var result = add(3 , 4);
+		alert(result); //undefind
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

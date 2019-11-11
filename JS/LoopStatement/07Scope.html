@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+
+		/*
+			作用域：就是起作用的范围，或者是有效
+		*/
+
+
+
+
+
+		/*var a = 10;
+		function sum(){
+			a = 5;
+		}
+		alert(a); //10
+		sum();
+		alert(a); //5*/
+
+		var a = 10;
+		function sum(){
+			var a = 5;
+			alert(a); //5
+		}
+		alert(a); //10
+		sum();
+		alert(a); //10
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
