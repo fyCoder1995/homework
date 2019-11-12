@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		//计算阶乘
+		window.onload = function(){
+			var Onum = document.getElementById("num");
+			var Obtn = document.getElementById("btn");
+			var Ores = document.getElementById("res");
+
+			Obtn.onclick = function(){
+				var fac = factorial(Onum.value);
+				Ores.value = fac;
+			}
+
+			function factorial(n){
+				if(n == 1){
+					return 1;
+				}
+				return factorial(n -1) * n;
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="num">的
+	<input type="button" value="阶乘" id="btn">为
+	<input type="text" id="res">
+</body>
+</html>
