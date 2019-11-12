@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		
+		/*
+			1、判断一个年份是不是闰年
+			分析：
+				参数：年份
+				返回值：是否是闰年 布尔值
+		*/
+
+		// 运算符优先级&&高于||
+		/*function leapYear(year){
+			if(year % 400 == 0 || year % 4 == 0 && year % 100 != 0){
+				return true;
+			}else{
+				return false;
+			}
+		}
+
+		alert(leapYear(2017));*/
+
+		/*
+			判断一个数是否是素数/质数
+			素数：只能被1和他本身整除的数。
+
+			参数：一个数
+			返回值：是否是素数 布尔值
+
+		*/
+		function prime(num){
+			var isYes = false; //是否是素数
+			for(var i = 2; i < num; i++){
+				if(num % i == 0){
+					isYes = true; //又一次成功
+					break;
+				}
+			}
+
+			return !isYes;
+		}
+
+		alert(prime(4));
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
