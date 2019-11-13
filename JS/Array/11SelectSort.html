@@ -15,7 +15,7 @@
 
 
 		var arr = [9, 8, 7, 6, 5, 4];
-		for (var i = 0; i < arr.length; i++) {
+		/*for (var i = 0; i < arr.length; i++) {
 			for (var j = i + 1; j < arr.length; j++) {
 				if(arr[i] > arr[j]){
 					var tmp = arr[i];
@@ -23,7 +23,19 @@
 					arr[j] = tmp;
 				}
 			}
+		}*/
+		function choose(arr){
+			for (var i = 0; i < arr.length; i++) {
+				for (var j = i + 1; j < arr.length; j++) {
+					if(arr[i] > arr[j]){
+						var tmp = arr[i];
+						arr[i] = arr[j];
+						arr[j] = tmp;
+					}
+				}
+			}
 		}
+		choose(arr);
 		alert(arr);
 
 	</script>

@@ -47,7 +47,7 @@
 		var arr = [9, 8, 7, 6, 5, 4];
 
 
-		for (var i = 0; i < arr.length; i++) { //比较的轮次
+		/*for (var i = 0; i < arr.length; i++) { //比较的轮次
 			//每一轮比较的次数
 			for (var j = 0; j < arr.length - i - 1; j++) {
 				//判断前后两个个数是否符合交换条件
@@ -57,9 +57,22 @@
 					arr[j] = tmp;
 				}
 			}
-		}
+		}*/
+		function bubble(arr){
+			for (var i = 0; i < arr.length; i++) { //比较的轮次
+				//每一轮比较的次数
+				for (var j = 0; j < arr.length - i - 1; j++) {
+					//判断前后两个个数是否符合交换条件
+					if(arr[j] > arr[j + 1]){
+						var tmp = arr[j + 1];
+						arr[j + 1] = arr[j];
+						arr[j] = tmp;
+					}
+				}
+			}
 
-		
+		}
+		bubble(arr);
 		alert(arr);
 
 		//自我练习 从大到小 冒泡排序
