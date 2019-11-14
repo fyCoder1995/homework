@@ -26,3 +26,35 @@ function choose(arr){
 		}
 	}
 }
+
+//比较函数
+//升序
+function compare(value1, value2){
+	if(value1 < value2){
+    	return -1;
+    }else if(value1 > value2){
+    	return 1;
+    }else{
+    	return 0;
+    }
+}
+
+/*function compare(value1, value2){
+	return value1 - value2;
+}*/
+
+//降序
+function compare(value1, value2){
+	if(value1 < value2){
+    	return 1;
+    }else if(value1 > value2){
+    	return -1;
+    }else{
+    	return 0;
+    }
+}
+
+/*function compare(value1, value2){
+	return value2 - value1;
+}*/
+
