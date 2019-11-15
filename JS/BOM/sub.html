@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<style>
+		body{
+			background-color: blue;
+		}
+	</style>
+	<script type="text/javascript">
+		/*
+			opener 打开当前窗口的父窗口的window对象
+		*/
+		window.onload = function(){
+			var oBtn = document.getElementById("btn");
+
+			oBtn.onclick = function(){
+				alert(window.opener);
+				// opener.close();
+				opener.document.wwrite("子窗口让我输出的");
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type = "button" value = "按钮" id = "btn" />
+</body>
+</html>
