@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>Document</title>
@@ -10,14 +10,17 @@
 	<script type="text/javascript">
 		/*
 			opener 打开当前窗口的父窗口的window对象
+
+			【调试后特别说明】跨页面操作涉及到域的概念（origin）如果opener获取不到，则需要本地架设服务器测试
+
+			IE不支持该对象
 		*/
 		window.onload = function(){
 			var oBtn = document.getElementById("btn");
 
 			oBtn.onclick = function(){
-				alert(window.opener);
-				// opener.close();
-				opener.document.wwrite("子窗口让我输出的");
+				alert(opener);
+				opener.document.write("子窗口让我输出的");
 			}
 		}
 	</script>
