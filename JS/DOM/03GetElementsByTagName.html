@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		
+		/*
+			document.getElementsByTagName()
+			node.getElementsByTagName()
+			【注】从node节点开始，找出所有符合条件的节点
+			参数：标签名
+			功能：获取当前页面上所欲符合该标签名标准的元素节点。
+			返回值：一个装有符合条件的元素节点的数组。
+		*/
+		window.onload = function(){
+			//获取当前页面上所有的li标签
+			// var aList = document.getElementsByTagName("li");
+
+			// alert(aList.length); //[object HTMLCollection] 是一个数组
+
+			//获取ul下的所有的li标签
+			var oUl = document.getElementById("ul1")
+			var aList = oUl.getElementsByTagName("li");
+			// alert(aList.length);
+			for (var i = 0; i <aList.length; i++) {
+				// alert(aList[i].innerHTML);
+				// alert(aList[i]);
+				alert(aList.item(i).innerHTML);
+			}
+		}
+	</script>
+</head>
+<body>
+	<ul id = "ul1">
+		<li>11111</li>
+		<li>22222</li>
+		<li>33333</li>
+		<li>44444</li>
+	</ul>
+	<ul>
+		<li>55555</li>
+		<li>66666</li>
+		<li>77777</li>
+		<li>88888</li>
+	</ul>
+</body>
+</html>
