@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script type="text/javascript">
+		/*
+			set/getAttribute()
+			removeAttrite()
+
+			【注】都是当前元素节点中某个属性
+		*/
+		window.onload = function(){
+			var oDiv = document.getElementById("div1");
+			/*alert(oDiv.title);
+			alert(oDiv.className);*/
+			// alert(oDiv.getAttribute("title"));
+
+			/*oDiv.title = "xxx";
+			oDiv.className = "box3";*/
+
+			// oDiv.setAttribute("title", "xxx");
+
+
+			/*
+				上述两种方式的区别
+				<1>class属性返回区别，点操作是通过className，而set/getAttribute是通过class
+				<2>
+			*/
+			alert(oDiv.getAttribute("class"));
+			oDiv.setAttribute("class", "yyy");
+
+			//设置用户自定义属性
+			oDiv.setAttribute()
+		}
+	</script>
+</head>
+<body>
+	<div id = "div1" title = "hello" name = "world" class = "box"></div>
+</body>
+</html>
