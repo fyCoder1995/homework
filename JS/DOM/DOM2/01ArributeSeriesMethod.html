@@ -24,19 +24,26 @@
 			/*
 				上述两种方式的区别
 				<1>class属性返回区别，点操作是通过className，而set/getAttribute是通过class
-				<2>
+				<2>set/getAttribute是用户自定义属性支持
 			*/
-			alert(oDiv.getAttribute("class"));
-			oDiv.setAttribute("class", "yyy");
+			// alert(oDiv.getAttribute("class"));
+			// oDiv.setAttribute("class", "yyy");
 
 			//设置用户自定义属性
-			oDiv.xxx = "yyy";
-			// oDiv.setAttribute()
+			// oDiv.xxx = "yyy";
+			// oDiv.setAttribute("xxx", "yyy");
+
+			// alert(oDiv.xxx);
+			// alert(oDiv.getAttribute("xxx"));
+
+
+			// oDiv.removeAttribute("title");
+			oDiv.title = "";
 
 		}
 	</script>
 </head>
 <body>
-	<div id = "div1" title = "hello" name = "world" class = "box"></div>
+	<div id = "div1" title = "hello" name = "world" class = "box" xxx = "yyy"></div>
 </body>
 </html>
