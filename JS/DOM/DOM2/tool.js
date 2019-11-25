@@ -120,6 +120,30 @@ function removeSpaceNode(nodes){
 	return result;
 }
 
+/*
+	【注】创建一个带文本的元素节点呢？
+*/
+
+function creatElementWithTxt(tagName, txt){
+	var node = document.createElement(tagName);
+	var oTxt = document.createTextNode(txt);
+	node.appendChild(oTxt);
+	return node;
+}
+
+function insertAfter(newNode, oldNode){
+	//判断oldNode是否是最后一个节点
+	var parent = oldNode.parentNode;
+
+	if(oldNode == parent.lastChild){
+		//最后一个节点，直接插入到子节点的末尾
+		parent.appendChild(newNode);
+	}else{
+		//插入到oldNode的下一个节点之前
+		parent.insertBefore(newNode,oldNode.nextSibling);
+	}
+}
+
 
 
 
