@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 200px;
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="test">
+			aaa
+		</div>
+		<form>
+			<input type="text" />
+			<input type="submit" value="提交" />
+		</form>
+		<script type="text/javascript">
+			var oDiv = document.getElementById("test");
+			var oForm = document.getElementsByTagName("form")[0];
+			var aInput = document.getElementsByTagName("input");
+			/* oDiv.onclick = function(){
+				console.log("click");
+			}
+			oDiv.onmouseover = function(){
+				console.log(this.innerText);
+			}
+			oDiv.onmousedown = function(){
+				console.log("mousedown");
+			}
+			oDiv.onmouseup = function(){
+				console.log("mouseup");
+			} */
+			/* oForm.onsubmit = function(){
+				console.log("sumbit");
+				return false;
+			} */
+			aInput[0].onfocus = function(){
+				console.log("focus");
+			}
+			aInput[0].onblur = function(){
+				console.log("blur");
+			}
+			aInput[0].onchange = function(){
+				console.log("change");
+			}
+			aInput[0].oninput = function(){
+				console.log("input");
+			}
+		</script>
+	</body>
+</html>
