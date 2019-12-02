@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#outer{
+				width: 200px;
+				height: 200px;
+				background: red;
+			}
+			#inner{
+				width: 100px;
+				height: 100px;
+				background: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="outer">
+			<div id="inner">
+				
+			</div>
+		</div>
+		<script type="text/javascript">
+			var outer = document.getElementById("outer");
+			var inner = document.getElementById("inner");
+			
+			/* outer.onclick = foo;
+			outer.onclick = bar;
+			outer.onclick = null; */
+			/* inner.addEventListener("click",baz,true);
+			outer.addEventListener("click",foo,true); */
+			/* outer.addEventListener("click",bar,false);
+			outer.removeEventListener("click",foo);
+			outer.removeEventListener("click",bar);
+			*/
+		   /* outer.attachEvent("onclick",foo); //只支持IE9以下
+		   outer.detachEvent("onclick",foo);*/
+			function foo(){
+				console.log("outer1");
+			}
+			function bar(){
+				console.log("outer2");
+			} 
+			function baz(){
+				console.log("inner");
+			} 
+			
+			//封装方法 兼容IE
+			function addEvent(obj,type,fun){
+				if(obj.addEventListener){
+					obj.addEventListener(type,fun,false);
+				}else{
+					obj.attachEvent("on",type,fun);
+				}
+			}
+			function removeEvent(obj,type,fun){
+				if(obj.removeEventListener){
+					obj.removeEventListener(type,fun,false);
+				}else{
+					obj.detachEvent("on",type,fun);
+				}
+			}
+			addEvent(outer,"click",foo);
+			removeEvent(outer,"click",foo);
+		</script>
+	</body>
+</html>
