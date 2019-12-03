@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		请输入字符串：<input type="text" />
+		请输入左移位数：<input type="text" />
+		<input type="button" value="左移" />
+		左移之后的值:
+		<div id="span">
+		</div>
+		<script type="text/javascript">
+			var aInput = document.getElementsByTagName("input");
+			var oSpan = document.getElementById("span");
+			console.log(oSpan.innerText);
+			
+			var reg = /^[+]?(\d|[1-9]\d+)$/;
+			aInput[2].onclick = function(){
+				var str = aInput[0].value;
+				var num = aInput[1].value;
+				
+				if(str == "" || num == ""){
+					alert("字符串和左移位数不能为空");
+				}else if(typeof(str) != "string"){
+					alert("请输入正确字符串");
+				}else if(!reg.test(aInput[1].value)){
+					alert("左移位数必须为正整数");
+				}else{
+					var result = null;
+					
+					var front = str.slice(0,num);
+					var behind = str.slice(num-1,str.length-1);
+					result = behind+front;
+					oSpan.innerHTML = result;
+				}
+				
+			}
+		</script>
+	</body>
+</html>

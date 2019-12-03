@@ -37,6 +37,33 @@
 			
 			console.log(str.match(reg));
 			
+			//seach方法 用于查找符合规则的子串的位置,只返回一个匹配的位置
+			
+			var reg = /abc/;
+			var str = "12345abc";
+			
+			console.log(str.search(reg));
+			
+			//split 分隔
+			var reg = /good/;
+			var str = "good good study!";
+			
+			console.log(str.split(reg));
+			
+			//replace 替换
+			
+			var reg = /tmd/gi;
+			var str = "abc tmd abc TMD";
+			
+			console.log(str.replace(reg,"*"));
+			
+			//exec方法, 正则表达式的方法 将匹配成功的内容放到数组里,如果没有匹配成功,则返回null
+			var reg = /good/g;
+			var str = "good good study";
+			
+			console.log(reg.exec(str));
+			console.log(reg.exec(str));
+			console.log(reg.exec(str));
 		</script>
 	</body>
 </html>
