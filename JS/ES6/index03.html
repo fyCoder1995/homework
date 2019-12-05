@@ -53,14 +53,24 @@
 			
 			obj.sayHello(); */
 			
-			var obj = {
+			/* var obj = {
 				"name":"john",
 				"sayHello":function(){
+					console.log(this);
+					//延时执行
+					setTimeout(()=>{console.log(this.name)},1000);
+				}
+			} */
+			
+			/* var obj = {
+				"name":"john",
+				"sayHello":()=>{
+					console.log(this);
 					//延时执行
 					setTimeout(()=>{console.log(this.name)},1000);
 				}
 			}
-			obj.sayHello();
+			obj.sayHello(); */
 		</script>
 	</body>
 </html>
