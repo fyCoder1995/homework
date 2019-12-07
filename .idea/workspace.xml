@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Horizontal/imgs/img(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Horizontal/imgs/img(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Horizontal/imgs/img(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Horizontal/imgs/img(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Horizontal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Opacity/imgs/img(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Opacity/imgs/img(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Opacity/imgs/img(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Opacity/imgs/img(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/Opacity/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Animate/animation.js" afterDir="false" />
+    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="118-120">
+      <change afterPath="$PROJECT_DIR$/JS/InheritAndClosure/00_inherit/00_constructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/InheritAndClosure/00_inherit/01_prototype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/InheritAndClosure/00_inherit/02_composite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575511774576</updated>
       <workItem from="1575511777918" duration="13803000" />
+      <workItem from="1575616876863" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="118-120">
       <created>1575515854132</created>
@@ -97,18 +89,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="118-120" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575511926340">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575696278936">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1575696278936" />
+    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575698294755">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575698294755" />
     <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1575511926340" />
-    <state x="0" y="55" key="CommitChangelistDialog2" timestamp="1575515853997">
+    <state x="0" y="55" key="CommitChangelistDialog2" timestamp="1575696274103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575515853997" />
-    <state x="122" y="185" key="Vcs.Push.Dialog.v2" timestamp="1575515870085">
+    <state x="0" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575696274103" />
+    <state x="122" y="185" key="Vcs.Push.Dialog.v2" timestamp="1575613357336">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="122" y="185" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575515870085" />
+    <state x="122" y="185" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575613357336" />
+    <state x="114" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575696283683">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="114" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1575696283683" />
     <state x="416" y="230" key="git4idea.merge.GitPullDialog" timestamp="1575613268636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

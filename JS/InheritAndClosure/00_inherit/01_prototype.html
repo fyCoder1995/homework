@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person() {
+
+    }
+
+    Person.prototype.name = 'xiaoR';
+    Person.prototype.age = 18;
+    Person.prototype.sayHello = function () {
+        alert(this.name);
+    }
+
+    //1、创建一个对象
+    //__proto__
+    //2、将this指向这个对象
+    //3、执行构造函数
+    //4、返回这个对象
+    var p = new Person();
+
+    // p.sayHello();
+
+    //当访问一个对象的属性的时候，首先在这个对象本身进行查找
+    //如果找到，就直接返回这个属性，且停止查找
+    //如果没找到，会继续在原型上找，也就是__proto__指向的那个对象
+
+    function Student() {
+
+    }
+
+    // Student.prototype.name = 'xiaoS';
+    // Student.prototype.age = 12;
+    // Student.prototype.sayHello = function () {
+    //     alert(this.name)
+    // }
+
+    Student.prototype = Object.create(Person.prototype);
+
+    var s = new Student();
+    s.sayHello();
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Person
+    function Person(name, age){
+        this.name = name;
+        this.age = age;
+    }
+
+    Person.prototype.sayHello = function () {
+        alert(this.name);
+    }
+
+    //1、创建一个对象
+    //2、this指针指向这个对象
+    //3、执行构造函数内的代码
+    //4、将构造对象返回
+    var p = new Person();
+
+    function Student(name, age, id) {
+        Person.apply(this,[name,age]);
+        // Person.call(this,name,age);
+        // this.name = name;
+        // this.age = age;
+        this.id = id;
+        // this.sayHello = function () {
+        //     alert(this.name);
+        // }
+        this.study = function () {
+            alert(this.id + "is learning");
+        }
+    }
+    //apply call
+    var p2 = {name:'xiao2'};
+    Person.apply(p2);
+
+</script>
+</body>
+</html>
