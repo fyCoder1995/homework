@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="118-120">
-      <change afterPath="$PROJECT_DIR$/JS/InheritAndClosure/00_inherit/00_constructor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/InheritAndClosure/00_inherit/01_prototype.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/InheritAndClosure/00_inherit/02_composite.html" afterDir="false" />
+    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="124-126">
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/AjaxChain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/AjaxGet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/AjaxPost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/CallHell.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/Promise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/PromiseAjaxChain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/p1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/p2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/p3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/p4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +48,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/Animate/Horizontal/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/Ajax" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JS/Ajax" />
       <recent name="$PROJECT_DIR$/JS/Animate/Horizontal/imgs" />
     </key>
   </component>
@@ -68,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575511774576</updated>
       <workItem from="1575511777918" duration="13803000" />
-      <workItem from="1575616876863" duration="2610000" />
+      <workItem from="1575616876863" duration="10088000" />
     </task>
     <task id="LOCAL-00001" summary="118-120">
       <created>1575515854132</created>
@@ -77,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575515854132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="124-126">
+      <created>1575730341383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575730341383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,26 +104,27 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="118-120" />
-    <option name="LAST_COMMIT_MESSAGE" value="118-120" />
+    <MESSAGE value="124-126" />
+    <option name="LAST_COMMIT_MESSAGE" value="124-126" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575696278936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1575696278936" />
-    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575698294755">
+    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575765638431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575698294755" />
+    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575765638431" />
     <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1575511926340" />
-    <state x="0" y="55" key="CommitChangelistDialog2" timestamp="1575696274103">
+    <state x="0" y="55" key="CommitChangelistDialog2" timestamp="1575730357058">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575696274103" />
-    <state x="122" y="185" key="Vcs.Push.Dialog.v2" timestamp="1575613357336">
+    <state x="0" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575730357058" />
+    <state x="122" y="185" key="Vcs.Push.Dialog.v2" timestamp="1575730382455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="122" y="185" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575613357336" />
+    <state x="122" y="185" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575730382455" />
     <state x="114" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575696283683">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
