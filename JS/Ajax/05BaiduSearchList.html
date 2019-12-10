@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<ul></ul>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+    function getData(data) {
+        var script = document.querySelector('#jsonp');
+        script.parentNode.removeChild(script);
+        $('ul').html('');
+
+        for(var i = 0; i< data.g.length; i++){
+            $('<li>' + data.g[i]['q'] + '</li>').appendTo('ul');
+        }
+    }
+    function getList(wd){
+        var script = document.createElement('script');
+        script.id = 'jsonp';
+        script.src = 'https://www.baidu.com/sugrec?prod=pc&cb=getData&wd=' + wd;
+        document.body.appendChild(script);
+    }
+    
+    $('input').keyup(function () {
+        var wd = $(this).val();
+        getList(wd);
+    })
+</script>
+</body>
+</html>
