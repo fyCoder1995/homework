@@ -126,10 +126,14 @@
     </state>
     <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575765638431" />
     <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1575511926340" />
-    <state x="0" y="55" key="CommitChangelistDialog2" timestamp="1575903683195">
+    <state x="0" y="55" key="CommitChangelistDialog2" timestamp="1575972042725">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575903683195" />
+    <state x="0" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575972042725" />
+    <state x="98" y="178" key="RollbackChangesDialog" timestamp="1575972117463">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="98" y="178" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1575972117463" />
     <state x="122" y="185" key="Vcs.Push.Dialog.v2" timestamp="1575903698386">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

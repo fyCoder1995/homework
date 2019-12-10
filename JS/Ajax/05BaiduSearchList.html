@@ -13,7 +13,6 @@
         var script = document.querySelector('#jsonp');
         script.parentNode.removeChild(script);
         $('ul').html('');
-
         for(var i = 0; i< data.g.length; i++){
             $('<li>' + data.g[i]['q'] + '</li>').appendTo('ul');
         }
