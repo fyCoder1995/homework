@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="../vendor/jquery-3.2.1.min.js"></script>
+<script>
+    $.ajax({
+        type: 'get',
+        url: './person.json',
+        data:{
+            name: '黄忠'
+        },
+        success: function (resp) {
+            alert(resp.hobby);
+        },
+        error:function () {
+
+        }
+    })
+
+     // $.ajax({
+     //     type: 'get',
+     //     url:'./person.json'
+     // }).done(function () {
+     //
+     // }).fall(function () {
+     //
+     // })
+
+    $.ajax({type:'get', url:'./api1'}).done(function () {
+        return $.ajax({url:'./api2'})
+    }).done(function () {
+        return $.ajax({url:'./api3'})
+    }).done(function () {
+        console.log('调用结束');
+    })
+</script>
+</body>
+</html>
