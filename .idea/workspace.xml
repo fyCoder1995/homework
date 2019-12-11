@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/Ajax/04Jsonp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Ajax/05BaiduSearchList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Ajax/06Cors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JQ/00Basic/00_$.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/Ajax/AjaxChain.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Ajax/02AjaxChain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/Ajax/CallHell.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Ajax/00CallBack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/Ajax/Promise.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Ajax/01Promise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/Ajax/PromiseAjaxChain.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Ajax/03PromiseAjaxChain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.sublime-workspace" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -27,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1UXnOLBtXQDrt8Pzg8y7SYRJZWV" />
+  <component name="ProjectId" id="1UoanmnsMU5BszZJxH86MG7HViN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -42,13 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/Ajax" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/JS/Ajax" />
-      <recent name="$PROJECT_DIR$/JS/Animate/Horizontal/imgs" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -68,84 +61,30 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="" />
-      <created>1575511774576</created>
+      <created>1576025570368</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575511774576</updated>
-      <workItem from="1575511777918" duration="13803000" />
-      <workItem from="1575616876863" duration="14184000" />
+      <updated>1576025570368</updated>
+      <workItem from="1576025576770" duration="553000" />
+      <workItem from="1576041034437" duration="9000" />
     </task>
-    <task id="LOCAL-00001" summary="118-120">
-      <created>1575515854132</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1575515854132</updated>
-    </task>
-    <task id="LOCAL-00002" summary="124-126">
-      <created>1575730341383</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1575730341383</updated>
-    </task>
-    <task id="LOCAL-00003" summary="127-130">
-      <created>1575777450192</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1575777450192</updated>
-    </task>
-    <task id="LOCAL-00004" summary="127-130">
-      <created>1575903683389</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1575903683389</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="118-120" />
-    <MESSAGE value="124-126" />
-    <MESSAGE value="127-130" />
-    <option name="LAST_COMMIT_MESSAGE" value="127-130" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575696278936">
+    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576035279245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1575696278936" />
-    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575765638431">
+    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576035279245" />
+    <state x="0" y="98" key="SettingsEditor" timestamp="1576036095695">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575765638431" />
-    <state x="451" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1575511926340" />
-    <state x="0" y="55" key="CommitChangelistDialog2" timestamp="1575972042725">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="0" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576036095695" />
+    <state x="376" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1576041039462">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="0" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575972042725" />
-    <state x="98" y="178" key="RollbackChangesDialog" timestamp="1575972117463">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="98" y="178" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1575972117463" />
-    <state x="122" y="185" key="Vcs.Push.Dialog.v2" timestamp="1575903698386">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="122" y="185" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575903698386" />
-    <state x="114" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575696283683">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="114" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1575696283683" />
-    <state x="416" y="230" key="git4idea.merge.GitPullDialog" timestamp="1575613268636">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="416" y="230" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1575613268636" />
-    <state x="416" y="231" key="git4idea.merge.GitPullDialog/0.23.1440.814@0.23.1440.814" timestamp="1575511860682" />
+    <state x="376" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1576041039462" />
   </component>
 </project>
