@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="../vendor/jquery-3.2.1.min.js"></script>
+<script>
+    //https://www.baidu.com/sugrec?prod=pc&wd=jsonp&cb=
+    $.ajax({
+        type:'get',
+        url:'https://www.baidu.com/sugrec?prod=pc&',
+        dataType:'jsonp',
+        data:{
+            wd:'json'
+        }
+    }).done(function (resp) {
+        alert(resp.g[1]['q']);
+    })
+</script>
+</body>
+</html>
