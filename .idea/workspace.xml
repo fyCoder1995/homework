@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/JQ/00Basic/01AllCheck.html" afterDir="false" />
+    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="136">
+      <change afterPath="$PROJECT_DIR$/JS/JQ/00Basic/02Animate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576042940673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="136">
+      <created>1576044004970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576044004970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,17 +99,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="132-133" />
     <MESSAGE value="134-135" />
-    <option name="LAST_COMMIT_MESSAGE" value="134-135" />
+    <MESSAGE value="136" />
+    <option name="LAST_COMMIT_MESSAGE" value="136" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576035279245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576035279245" />
-    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576043982734">
+    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576044548773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576043982734" />
+    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576044548773" />
     <state x="0" y="98" key="SettingsEditor" timestamp="1576036095695">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
