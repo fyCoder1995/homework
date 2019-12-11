@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Ajax/06Cors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/JQ/00Basic/00_$.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.sublime-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ/00Basic/00_$.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JQ/00Basic/00_$.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +62,47 @@
       <workItem from="1576025576770" duration="553000" />
       <workItem from="1576041034437" duration="9000" />
     </task>
+    <task id="LOCAL-00001" summary="132-133">
+      <created>1576041614248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576041614248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="132-133">
+      <created>1576041621085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576041621085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="132-133" />
+    <option name="LAST_COMMIT_MESSAGE" value="132-133" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576035279245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576035279245" />
-    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576041614101">
+    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576041620959">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576041614101" />
+    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576041620959" />
     <state x="0" y="98" key="SettingsEditor" timestamp="1576036095695">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576036095695" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1576041623940">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576041623940" />
     <state x="376" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1576041039462">
       <screen x="0" y="23" width="1440" height="812" />
     </state>

@@ -3,8 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+
+        .play{
+            background: green;
+        }
+
+        .pause{
+            background: gray;
+        }
+    </style>
 </head>
 <body>
+<!--<ul>-->
+<!--    <li>1</li>-->
+<!--    <li>2</li>-->
+<!--    <li>3</li>-->
+<!--    <li>4</li>-->
+<!--    <li>5</li>-->
+<!--</ul>-->
+<!--<input type="text">-->
+<!--<label>选中 <input type="checkbox" checked></label>-->
+<div class="pause"></div>
 <script src="../vendor/jquery-3.2.1.js"></script>
+<script>
+    // $('li').html('li');
+    // alert($('ul').html());
+    $('input').keyup(function () {
+        // alert($(this).val());
+        var v = $(this).val();
+        if(v.slice(-2) !== 'px'){
+            $(this).val(v + 'px');
+        }
+    })
+
+    $('input[type=checkbox]').change(function () {
+        console.log($(this).prop('checked'));
+    })
+
+    $("div").click(function () {
+        $(this).toggleClass('pause');
+        $(this).toggleClass('play');
+    })
+</script>
 </body>
 </html>
