@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/JQ/01Advanced/02Manipulate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/00PlugDefine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JQ/01Advanced/02Ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JQ/01Advanced/01Ajax.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576047535924</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="142">
+      <created>1576048226201</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576048226201</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,17 +149,18 @@
     <MESSAGE value="139" />
     <MESSAGE value="140" />
     <MESSAGE value="141" />
-    <option name="LAST_COMMIT_MESSAGE" value="141" />
+    <MESSAGE value="142" />
+    <option name="LAST_COMMIT_MESSAGE" value="142" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576035279245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576035279245" />
-    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576047535790">
+    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576048226053">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576047535790" />
+    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576048226053" />
     <state x="0" y="98" key="SettingsEditor" timestamp="1576036095695">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
