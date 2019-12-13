@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="./jquery-magnifier.css">
+</head>
+<body>
+<div class="magnifier">
+    <div class="left">
+        <img src="./img/small.jpg" alt="">
+        <div class="float"></div>
+        <div class="mask"></div>
+    </div>
+    <div class="right"></div>
+</div>
+<script src="../../vendor/jquery-3.2.1.min.js"></script>
+<script src="./jquery-magnifier.js"></script>
+<script>
+    $('.magnifier').magnifier();
+</script>
+</body>
+</html>

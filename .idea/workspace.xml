@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/00PlugDefine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/Magnifier/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/Magnifier/jquery-magnifier.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/Magnifier/jquery-magnifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/cNumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +17,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,8 +42,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="cNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/cNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,6 +94,8 @@
       <updated>1576025570368</updated>
       <workItem from="1576025576770" duration="553000" />
       <workItem from="1576041034437" duration="9000" />
+      <workItem from="1576103315397" duration="12444000" />
+      <workItem from="1576199237943" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="132-133">
       <created>1576041614248</created>
@@ -157,21 +190,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576035279245" />
-    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576048226053">
+    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576048909216">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576048226053" />
-    <state x="0" y="98" key="SettingsEditor" timestamp="1576036095695">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576048909216" />
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1576197463878">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1576197463878" />
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1576115282195" />
+    <state width="1358" height="196" key="GridCell.Tab.0.center" timestamp="1576197463878">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1576197463878" />
+    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1576115282194" />
+    <state width="1358" height="196" key="GridCell.Tab.0.left" timestamp="1576197463877">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1576197463877" />
+    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1576115282194" />
+    <state width="1358" height="196" key="GridCell.Tab.0.right" timestamp="1576197463878">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1576197463878" />
+    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1576115282194" />
+    <state x="0" y="111" key="SettingsEditor" timestamp="1576103496386">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="0" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576036095695" />
+    <state x="0" y="111" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1576103496386" />
     <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1576041623940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576041623940" />
-    <state x="376" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1576041039462">
+    <state x="376" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1576103316624">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="376" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1576041039462" />
+    <state x="376" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1576103316624" />
+    <state x="328" y="43" width="824" height="792" key="find.popup" timestamp="1576103542864">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="328" y="43" width="824" height="792" key="find.popup/0.23.1440.812@0.23.1440.812" timestamp="1576103542864" />
   </component>
 </project>
