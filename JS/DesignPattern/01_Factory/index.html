@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="Normal.js"></script>
+<script src="GunCarrier.js"></script>
+<script src="Strong.js"></script>
+<script src="Factory.js"></script>
+<script>
+    var s1 = Factory.create('normal');
+
+    for (var i = 0; i < 100; i++){
+        Factory.create('gunCarrier');
+    }
+</script>
+</body>
+</html>

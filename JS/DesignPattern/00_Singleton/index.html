@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="Singleton.js"></script>
+<script>
+    var s1 = new Singleton();
+    var s2 = new Singleton();
+    alert(s1 == s2);
+    var s3 = Singleton();
+    alert(s1 == s3)
+</script>
+</body>
+</html>

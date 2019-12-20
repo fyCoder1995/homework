@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/Magnifier/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/Magnifier/jquery-magnifier.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/JQ/02Plugin/Magnifier/jquery-magnifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/cNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/00_Singleton/DarkMaster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/00_Singleton/Singleton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/00_Singleton/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/01_Factory/Factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/01_Factory/GunCarrier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/01_Factory/Normal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/01_Factory/Strong.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/01_Factory/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/02_Strategy/Strategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/02_Strategy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/03_Adapter/GuanYu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/03_Adapter/Hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/03_Adapter/Sagittarius.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/04_Observer/Hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/04_Observer/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DesignPattern/04_Observer/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +30,9 @@
       <list>
         <option value="package.json" />
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -95,7 +107,7 @@
       <workItem from="1576025576770" duration="553000" />
       <workItem from="1576041034437" duration="9000" />
       <workItem from="1576103315397" duration="12444000" />
-      <workItem from="1576199237943" duration="2188000" />
+      <workItem from="1576199237943" duration="7278000" />
     </task>
     <task id="LOCAL-00001" summary="132-133">
       <created>1576041614248</created>
@@ -167,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576048226201</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="143-144">
+      <created>1576201712314</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576201712314</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,17 +202,18 @@
     <MESSAGE value="140" />
     <MESSAGE value="141" />
     <MESSAGE value="142" />
-    <option name="LAST_COMMIT_MESSAGE" value="142" />
+    <MESSAGE value="143-144" />
+    <option name="LAST_COMMIT_MESSAGE" value="143-144" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576035279245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576035279245" />
-    <state x="312" y="55" key="CommitChangelistDialog2" timestamp="1576048909216">
+    <state x="251" y="82" width="816" height="818" key="CommitChangelistDialog2" timestamp="1576812655873">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576048909216" />
+    <state x="251" y="82" width="816" height="818" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576812655873" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1576197463878">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
@@ -219,10 +239,10 @@
     </state>
     <state x="0" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576036095695" />
     <state x="0" y="111" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1576103496386" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1576041623940">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1576201756379">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576041623940" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576201756379" />
     <state x="376" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1576103316624">
       <screen x="0" y="23" width="1440" height="812" />
     </state>

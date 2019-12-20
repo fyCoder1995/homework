@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="Strategy.js"></script>
+<script>
+    function Go2Victory(stra) {
+        this.strategy = stra;
+    }
+
+    Go2Victory.prototype.victory = function () {
+        this.strategy.tactics();
+    }
+
+    var v = new Go2Victory(new StrategyB());
+    v.victory();
+</script>
+</body>
+</html>
