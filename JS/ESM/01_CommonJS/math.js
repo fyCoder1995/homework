@@ -10,6 +10,6 @@ function square(n) {
 
 module.exports = {
     PI:PI,
-    mulitipe:multiple,
+    multiple:multiple,
     square:square
 }

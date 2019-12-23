@@ -1,3 +1,3 @@
 var s = require('./s');
 
-console.log(s.s_cricle(10));
+console.log(s.s_circle(10));

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/ESM/01_CommonJS/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ESM/01_CommonJS/math.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ESM/01_CommonJS/s.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/ESM/01_CommonJS/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/ESM/01_CommonJS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/ESM/01_CommonJS/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/ESM/01_CommonJS/math.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/ESM/01_CommonJS/math.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/ESM/01_CommonJS/s.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/ESM/01_CommonJS/s.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
         <option value="package.json" />
         <option value="Python Script" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -99,7 +100,7 @@
       <workItem from="1576025576770" duration="553000" />
       <workItem from="1576041034437" duration="9000" />
       <workItem from="1576103315397" duration="12444000" />
-      <workItem from="1576199237943" duration="9061000" />
+      <workItem from="1576199237943" duration="11463000" />
     </task>
     <task id="LOCAL-00001" summary="132-133">
       <created>1576041614248</created>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576814427276</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="152">
+      <created>1576814997051</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576814997051</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,17 +219,18 @@
     <MESSAGE value="143-144" />
     <MESSAGE value="145-150" />
     <MESSAGE value="151" />
-    <option name="LAST_COMMIT_MESSAGE" value="151" />
+    <MESSAGE value="152" />
+    <option name="LAST_COMMIT_MESSAGE" value="152" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576035279245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576035279245" />
-    <state x="251" y="82" width="816" height="818" key="CommitChangelistDialog2" timestamp="1576814427145">
+    <state x="251" y="82" width="816" height="818" key="CommitChangelistDialog2" timestamp="1576814996904">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="251" y="82" width="816" height="818" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576814427145" />
+    <state x="251" y="82" width="816" height="818" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576814996904" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1576197463878">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
