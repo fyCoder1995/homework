@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="" />
+    <list default="true" id="0efcafba-b3c5-4b58-8c61-0ba603c909c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SASS/00_var.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SASS/01_nested.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SASS/02_import.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SASS/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SASS/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +21,16 @@
         <option value="package.json" />
         <option value="Python Script" />
         <option value="CSS File" />
-        <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="Sass File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1UoanmnsMU5BszZJxH86MG7HViN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -38,9 +48,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JS/ESM/03_GULP/src_1/dist" />
-    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/SCSS/test.scss" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,6 +114,13 @@
       <workItem from="1576199237943" duration="13025000" />
       <workItem from="1577094014744" duration="3630000" />
       <workItem from="1577099102529" duration="26000" />
+      <workItem from="1577110824497" duration="45000" />
+      <workItem from="1579703462547" duration="886000" />
+      <workItem from="1579705366176" duration="316000" />
+      <workItem from="1579705695375" duration="293000" />
+      <workItem from="1579705992132" duration="314000" />
+      <workItem from="1579707481827" duration="1595000" />
+      <workItem from="1579709268980" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="132-133">
       <created>1576041614248</created>
@@ -237,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577099125185</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="158">
+      <created>1577110864956</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1577110864956</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,18 +285,46 @@
     <MESSAGE value="153" />
     <MESSAGE value="154-156" />
     <MESSAGE value="157" />
-    <option name="LAST_COMMIT_MESSAGE" value="157" />
+    <MESSAGE value="158" />
+    <option name="LAST_COMMIT_MESSAGE" value="158" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577095113202">
+    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579710437473">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577095113202" />
-    <state x="251" y="97" width="816" height="818" key="CommitChangelistDialog2" timestamp="1577099124977">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="0" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579710437473" />
+    <state x="225" y="294" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1579703532859">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="225" y="294" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1440.808@0.23.1440.808" timestamp="1579703532859" />
+    <state x="143" y="225" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1579703870492">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="143" y="225" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.1440.808@0.23.1440.808" timestamp="1579703870492" />
+    <state x="278" y="183" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1579704048540">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="278" y="183" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.808@0.23.1440.808" timestamp="1579704048540" />
+    <state x="482" y="53" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579709760992">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="53" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1579709760992" />
+    <state x="251" y="23" width="816" height="808" key="CommitChangelistDialog2" timestamp="1577110864803">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="251" y="82" width="816" height="818" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577098452344" />
+    <state x="251" y="23" width="816" height="808" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1577110864803" />
     <state x="251" y="97" key="CommitChangelistDialog2/0.23.1440.814@0.23.1440.814" timestamp="1577099124977" />
+    <state x="253" y="123" width="497" height="608" key="DiffContextDialog" timestamp="1579706076093">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="253" y="123" width="497" height="608" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1579706076093" />
+    <state x="39" y="75" width="831" height="637" key="EditFileWatcherDialog" timestamp="1579709808825">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="39" y="75" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1579709808825" />
+    <state x="39" y="89" key="EditFileWatcherDialog/0.23.1440.797@0.23.1440.797" timestamp="1579708080322" />
+    <state x="39" y="90" width="831" height="637" key="EditFileWatcherDialog/0.23.1440.808@0.23.1440.808" timestamp="1579706297637" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1576197463878">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
@@ -292,10 +345,12 @@
     </state>
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1576197463878" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1576115282194" />
-    <state x="0" y="111" key="SettingsEditor" timestamp="1576103496386">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="0" y="98" key="SettingsEditor" timestamp="1579709810531">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576036095695" />
+    <state x="0" y="98" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579709810531" />
+    <state x="11" y="65" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1579708157915" />
+    <state x="11" y="66" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1579706302962" />
     <state x="0" y="111" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1576103496386" />
     <state x="320" y="194" key="Vcs.Push.Dialog.v2" timestamp="1577110845153">
       <screen x="0" y="23" width="1440" height="808" />
@@ -310,6 +365,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="433" y="233" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1577091298355" />
+    <state x="872" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579710425033">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="872" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1579710425033" />
     <state x="328" y="43" width="824" height="792" key="find.popup" timestamp="1576103542864">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
