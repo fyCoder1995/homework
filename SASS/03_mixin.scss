@@ -1,0 +1,21 @@
+@mixin font($family, $size, $weight){
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin transition($prop,$time){
+  -webkit-transform: $prop $time;
+  -moz-transition: $prop $time;
+  -ms-transition:$prop $time;
+  -o-transition: $prop $time;
+  transition: $prop $time;
+}
+
+a{
+  @include font('\5FAE\8F6F\96C5\9ED1', 30px,bold);
+}
+
+div{
+  @include transition(left, 2s);
+}
